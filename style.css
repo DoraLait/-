@@ -1,0 +1,271 @@
+.container{
+    width: 1440px; 
+    margin: 0 auto;
+}
+.nav {
+ 
+    display: flex;
+    gap: 20px;
+    height: 100px;
+    justify-content: left;
+    place-items: center;
+    margin-bottom: 100px;
+ 
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+.artist{
+    font-size: 40px; /* Согласование размера шрифта с кнопками */
+    color:black; /* Цвет текста */
+    margin-left: 10px; /* Отступ слева */
+    cursor: default; /* Курсор по умолчанию */
+}
+.artist:hover {
+    color: rgb(32, 30, 80); /* Цвет текста при наведении */
+    text-decoration: underline; /* Подчеркивание текста */
+}
+.zaya{
+    margin-left: 60px;
+    height: 40px;
+    width: 40px;  
+}
+.test{
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 40px; 
+    color:black; /* Цвет текста */
+    margin-left: 10px; /* Отступ слева */
+    cursor: default; /* Курсор по умолчанию */
+}
+.test:visited {
+    text-decoration: none;
+}
+
+.test:hover {
+    color: rgb(32, 30, 80); /* Цвет текста при наведении */
+    text-decoration: underline; /* Подчеркивание текста */
+}
+ 
+.korea{ 
+    font-size: 40px; 
+    width: 150px;
+    margin-right: 50px;
+    color:black; /* Цвет текста */
+    margin-left: 10px; /* Отступ слева */
+    cursor: default; /* Курсор по умолчанию */
+    text-decoration: none;
+} 
+.korea:hover {
+    color: rgb(32, 30, 80); /* Цвет текста при наведении */
+    text-decoration: underline; /* Подчеркивание текста */
+}
+.telega{ 
+    margin-left: 1px; 
+    height: 40px; 
+    width: 40px;   
+} 
+.vk{ 
+    margin-right: 30px;
+    height: 40px; 
+    width: 40px;   
+}
+input{
+    height: 30px;
+    width: 200px;
+    border-radius: 30px;
+}
+.container2 {
+    background-image: url('https://gornovosti.ru/media/filer_public/70/5d/705d2444-c85e-4d47-b762-82d958c45e3d/201503111300471-p-jpg.crdownload');
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    height: 300px;
+    width: 300px;
+
+}
+
+.dorama {
+    height: 400px;
+    width: 480px;
+}
+
+.idol{
+    height: 400px;
+    width: 480px;
+}
+
+
+.container2-text{
+    position: absolute;
+    top: 200px;
+    color:rgb(32, 30, 80);
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 900;
+
+}
+         
+
+.container3 {
+    background-image: url("https://avatars.dzeninfra.ru/get-zen_doc/3901320/pub_604501cf58285736dd59b7be_60450275b8613c1dbbd11ec8/scale_1200");
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 300px;
+
+}
+
+.container3-text3{
+    position: absolute;
+    top: 200px;
+    color:rgb(32, 30, 80);
+    font-size: 40px;
+    left: 730px;
+    line-height: 50px;
+    font-weight: 900;
+
+}
+.container4 {
+    display: flex;
+    height: 600px;
+    width: 300px;
+
+}
+
+
+.container4-text4{
+    position: absolute;
+    top: 200px;
+    left: 1230px;
+    color:rgb(32, 30, 80);
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 900;
+
+}
+.nagrad{
+    width: 480px;
+    height: 400px;
+}
+
+
+.container5 {
+    background-image: url("https://pbs.twimg.com/media/E0A3LBWUcAEInDq.jpg");
+    display: flex;
+    justify-content: space-between;
+    height: 340px;
+    width: 700px;
+    margin-top: 200px;
+    
+}
+.container5-text5{
+        position: absolute;
+        top: 700px;
+        left: 280px;
+        color:rgb(32, 30, 80);
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 900;
+}
+
+.muzlo {
+    background-image: url("https://avatars.mds.yandex.net/get-images-cbir/4289906/t9TAzMmMjpj3LDFB47PsnA1825/ocr");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 1800px;
+    height: 850px;
+    transform: scale(0.4);
+   
+    top: 447px;
+    margin-left: 200px;
+    
+}
+.container6-text6{
+        position: absolute;
+        top: 700px;
+        left: 1000px;
+        color:rgb(32, 30, 80);
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 900;
+}
+
+
+body {
+    background-color: #85658a; 
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .spletni {
+    background-image: url("https://static.wikia.nocookie.net/26d0fdd0-e805-4224-82a3-bc0e7e57a638");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 1800px;
+    height: 850px;
+    transform: scale(0.4);
+   border-radius: 60px;
+    top: 1000px;
+    margin-left: 200px;
+    
+}
+.container7-text7{
+        position: absolute;
+        top: 1300px;
+        right: 1000px;
+        color:rgb(32, 30, 80);
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 900;
+}
+
+.actual {
+    background-image: url("https://www.yesasia.ru/wp-content/uploads/2019/08/1566004552-yg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 1800px;
+    height: 850px;
+    transform: scale(0.4);
+    border-radius: 60px;
+    
+    right: 410px;
+    bottom: -1350px;
+    
+}
+.container8-text8{
+        position: absolute;
+        top: 1800px;
+        left: 1000px;
+        color:rgb(32, 30, 80);
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 900;
+}
+.hr-center{
+    position: absolute;
+    width: 1460px;
+    border-color: rgb(32, 30, 80);
+    top: 1140px;
+}
+
+h2{
+    position: absolute;
+    top: 1065px;
+    color:rgb(7, 7, 7);
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 900;
+}
